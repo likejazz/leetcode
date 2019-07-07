@@ -7,9 +7,6 @@
 # of the BSD license.  See the LICENSE file for details.
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        if not grid:
-            return 0
-        
         # Depth-first search until reaching the end.
         def dfs(i, j):
             if i < 0 or i >= len(grid) or \
