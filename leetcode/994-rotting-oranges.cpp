@@ -53,7 +53,7 @@ public:
                 this->changedCount++;
         } while (this->changed);
 
-        // Find an orange that is rotten and returns -1 if found.
+        // Find an orange that is never rotten and returns -1 if found.
         for (auto rows : grid) {
             for (auto el : rows) {
                 if (el == 1)
