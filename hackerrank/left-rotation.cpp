@@ -26,17 +26,17 @@ vector<int> array_left_rotation(vector<int> a, int n, int k) {
 }
 
 int main() {
-    // reads from input
+    // Reads from input
     int n, k;
     cin >> n >> k;
     vector<int> a(n);
     for (int a_i = 0; a_i < n; a_i++)
         cin >> a[a_i];
 
-    // rotation
+    // Rotation
     vector<int> output = array_left_rotation(a, n, k);
 
-    // print the output
+    // Print the output
     for (auto &n:output)
         cout << n << " ";
 
