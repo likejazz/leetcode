@@ -14,6 +14,3 @@ title: LeetCode
 - 684 Redundant Connection ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/684-redundant-connection.py))
 - 994 Rotting Oranges ([C++](https://github.com/likejazz/leetcode/blob/master/leetcode/994-rotting-oranges.cpp))
 
-## HackerRank
-- Simple Array Sum ([C++](https://github.com/likejazz/leetcode/blob/master/hackerrank/simple-array-sum.cpp))
-- Left Rotation ([C++](https://github.com/likejazz/leetcode/blob/master/hackerrank/left-rotation.cpp))
