@@ -15,4 +15,3 @@ class Solution:
             while not (strs[i].startswith(pre)):
                 pre = pre[:-1]
         return pre
-
