@@ -118,21 +118,21 @@ func (q *Deque) resize() {
 // --
 
 func isPalindrome(head *ListNode) bool {
-	var d Deque
+	var q Deque
 
 	if head == nil {
 		return true
 	}
 	// Push a listNode to deque for palindrome comparison.
-	n := head
-	for n != nil {
-		d.PushBack(n.Val)
-		n = n.Next
+	node := head
+	for node != nil {
+		q.PushBack(node.Val)
+		node = node.Next
 	}
 
 	// Compare whether is palindrome or not.
-	for d.Len() > 1 {
-		if d.PopFront() != d.PopBack() {
+	for q.Len() > 1 {
+		if q.PopFront() != q.PopBack() {
 			return false
 		}
 	}
