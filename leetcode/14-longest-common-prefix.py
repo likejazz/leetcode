@@ -13,6 +13,6 @@ class Solution:
         # Compare all strings by traversing.
         for i in range(1, len(strs)):
             while not (strs[i].startswith(pre)):
-                pre = pre[:len(pre) - 1]
+                pre = pre[:-1]
         return pre
 
