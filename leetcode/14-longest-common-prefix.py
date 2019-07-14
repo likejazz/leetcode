@@ -10,7 +10,7 @@ class Solution:
         if strs is None or len(strs) == 0:
             return ""
         pre = strs[0]
-        # Compare all strings by traversing.
+        # Traverse the strings by comparing the prefix.
         for i in range(1, len(strs)):
             while not (strs[i].startswith(pre)):
                 pre = pre[:-1]
