@@ -13,5 +13,6 @@ title: LeetCode
 - 332 Reconstruct Itinerary ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/332-reconstruct-itinerary.py))
 - 399 Evaluate Division ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/399-evaluate-division.py))
 - 684 Redundant Connection ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/684-redundant-connection.py))
+- 792 Number of Matching Subsequences ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/792-number-of-matching-subsequences.py))
 - 994 Rotting Oranges ([C++](https://github.com/likejazz/leetcode/blob/master/leetcode/994-rotting-oranges.cpp))
 
