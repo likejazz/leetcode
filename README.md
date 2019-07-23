@@ -4,8 +4,8 @@ title: LeetCode
 ---
 
 - 1 Two Sum
-  - [Python](https://github.com/likejazz/leetcode/blob/master/leetcode/1-two-sum.py) 864ms, 5284ms([Brute-Force](https://leetcode.com/submissions/detail/245362891/))
-  - Go 32ms(Brute-Force)
+  - [Python](https://github.com/likejazz/leetcode/blob/master/leetcode/1-two-sum.py) 864ms 5284ms([Brute-Force](https://leetcode.com/submissions/detail/245362891/))
+  - [Go](https://github.com/likejazz/leetcode/blob/master/leetcode/1-two-sum.go) 8ms 32ms([Brute-Force](https://leetcode.com/submissions/detail/245373276/))
 - 14 Longest Common Prefix
   - [Python](https://github.com/likejazz/leetcode/blob/master/leetcode/14-longest-common-prefix.py) 36ms, [C++](https://github.com/likejazz/leetcode/blob/master/leetcode/14-longest-common-prefix.cpp) 8ms, [Java](https://github.com/likejazz/leetcode/blob/master/leetcode/14-longest-common-prefix.java) 0ms, [Go](https://github.com/likejazz/leetcode/blob/master/leetcode/14-longest-common-prefix.go) 0ms
 - 101 Symmetric Tree ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/101-symmetric-tree.py), [C++](https://github.com/likejazz/leetcode/blob/master/leetcode/101-symmetric-tree.cpp))
