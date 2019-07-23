@@ -1,4 +1,4 @@
-# 125-valid-palindrome.py
+# 704-binary-search.py
 #
 # Copyright (C) 2019 Sang-Kil Park <likejazz@gmail.com>
 # All rights reserved.
