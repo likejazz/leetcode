@@ -11,7 +11,7 @@ class Solution:
     def increasingBST(self, root: TreeNode) -> TreeNode:
         # Extract the vals out in-order.
         self.vals = []
-        self.dfs(root, self.vals)
+        self.dfs(root)
 
         # Build a result tree.
         res = cur = TreeNode(None)
@@ -21,8 +21,8 @@ class Solution:
 
         return res.right
 
-    def dfs(self, root: TreeNode, vals: List):
+    def dfs(self, root: TreeNode):
         if root:
-            self.dfs(root.left, vals)
-            vals.append(root.val)
-            self.dfs(root.right, vals)
+            self.dfs(root.left)
+            self.vals.append(root.val)
+            self.dfs(root.right)
