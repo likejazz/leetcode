@@ -16,6 +16,7 @@ title: LeetCode
 - 310 Minimum Height Trees ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/310-minimum-height-trees.py))
 - 332 Reconstruct Itinerary ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/332-reconstruct-itinerary.py))
 - 399 Evaluate Division ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/399-evaluate-division.py))
+- 590 N-ary Tree Postorder Traversal ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/590.py))
 - 684 Redundant Connection ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/684-redundant-connection.py))
 - 704 Binary Search [Python](https://github.com/likejazz/leetcode/blob/master/leetcode/704-binary-search.py) 284ms  
 <small>Same performance as when using Python's internal function, eg. `target in nums`</small>
