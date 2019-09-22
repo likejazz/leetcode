@@ -22,4 +22,3 @@ class Solution:
             matched_count += 1
 
         return matched_count
-

@@ -20,4 +20,5 @@ title: LeetCode
 - 704 Binary Search [Python](https://github.com/likejazz/leetcode/blob/master/leetcode/704-binary-search.py) 284ms  
 <small>Same performance as when using Python's internal function, eg. `target in nums`</small>
 - 792 Number of Matching Subsequences ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/792-number-of-matching-subsequences.py))
+- 897 Increasing Order Search Tree ([Python](https://github.com/likejazz/leetcode/blob/master/leetcode/897.py))
 - 994 Rotting Oranges ([C++](https://github.com/likejazz/leetcode/blob/master/leetcode/994-rotting-oranges.cpp))
