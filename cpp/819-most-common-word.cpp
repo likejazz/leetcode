@@ -1,10 +1,3 @@
-#include "gtest/gtest.h"
-#include <iostream>
-#include <unordered_map>
-
-using namespace std;
-
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 public:
     string mostCommonWord(string paragraph, vector<string> &banned) {
@@ -46,17 +39,3 @@ public:
         return arg_max;
     }
 };
-//leetcode submit region end(Prohibit modification and deletion)
-
-// 819
-
-TEST(LeetCode, Solution) {
-    string paragraph = "a, a, a, a, b,b,b,c, c";
-    vector<string> banned;
-    banned.push_back("a");
-
-    Solution s = Solution();
-    string r = s.mostCommonWord(paragraph, banned);
-
-    cout << r << endl;
-}
