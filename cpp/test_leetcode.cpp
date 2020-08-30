@@ -1,6 +1,7 @@
-#include "gtest/gtest.h"
 #include <iostream>
 #include <unordered_map>
+#include <vector>
+#include <sstream>
 
 using namespace std;
 
@@ -50,7 +51,7 @@ public:
 
 // 819
 
-TEST(LeetCode, Solution) {
+int main(int argc, const char *argv[]) {
     string paragraph = "a, a, a, a, b,b,b,c, c";
     vector<string> banned;
     banned.push_back("a");
@@ -59,4 +60,6 @@ TEST(LeetCode, Solution) {
     string r = s.mostCommonWord(paragraph, banned);
 
     cout << r << endl;
+
+    return 0;
 }
