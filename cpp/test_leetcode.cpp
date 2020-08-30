@@ -63,3 +63,8 @@ int main(int argc, const char *argv[]) {
 
     return 0;
 }
+
+// $ mkdir bld; cd bld
+// $ cmake ..
+// $ make
+// $ ./leetcode
