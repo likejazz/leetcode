@@ -5,7 +5,6 @@ func firstUniqChar(s string) int {
 	}
 
 	for i, v := range s {
-		fmt.Println(v, m[v])
 		if m[v] == 1 {
 			return i
 		}
