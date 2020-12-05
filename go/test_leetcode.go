@@ -2,36 +2,35 @@ package main
 
 import (
 	"fmt"
+	"strconv"
+	_ "strings"
 )
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func firstUniqChar(s string) int {
-	var m = make(map[int32]int)
-	for _, v := range s {
-		m[v]++
+func addToArrayForm(A []int, K int) []int {
+	vv := ""
+	for _, v := range A {
+		vv += strconv.Itoa(v)
+	}
+	vvv, _ := strconv.Atoi(vv)
+	vvv += K
+
+	vvvv := strconv.Itoa(vvv)
+	fmt.Println(vvvv[2])
+	for _, v := range vvvv {
+		fmt.Println(v)
 	}
 
-	for i, v := range s {
-		fmt.Println(v, m[v])
-		if m[v] == 1 {
-			return i
-		}
-	}
-	return -1
+
+	return []int{}
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
 
-// 938
+// 989
 
 func main() {
-	//s = "leetcode"
-	//return 0.
-	//
-	//s = "loveleetcode"
-	//return 2.
-
-	r := firstUniqChar("loveleetcode")
+	r := addToArrayForm([]int{1,2,3,0}, 34)
 	fmt.Println(r)
 }
 
