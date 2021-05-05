@@ -1,7 +1,8 @@
 function numDifferentIntegers(word: string): number {
-    // Extract only numbers from string
+    // Extract only numbers from string.
     let regex: RegExp = /[\d]+/g
     let match: RegExpExecArray | null
+    // Testcase includes very large numbers.
     let results: Set<BigInt> = new Set()
 
     while (match = regex.exec(word)) {
