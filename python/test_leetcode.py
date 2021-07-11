@@ -2,14 +2,10 @@ from typing import List
 
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i, n in enumerate(nums):
-            complement = target - n
-            # Searches are much more faster than brute-force comparisons.
-            if complement in nums[i + 1:]:
-                return nums.index(n), nums[i + 1:].index(complement) + (i + 1)
+    def mincostTickets(self, days: List[int], costs: List[int]) -> int:
+        pass
 
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.twoSum([1, 5, 2, 9, 4], 13))
+    assert s.mincostTickets([1, 4, 6, 7, 8, 20], [2, 7, 15]) == 11

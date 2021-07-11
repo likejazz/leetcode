@@ -1,2 +1,6 @@
 .idea
-cmake-build-debug
+cpp/cmake-build-debug
+.gradle
+java/build
+java/gradle
+java/gradlew*

@@ -6,7 +6,9 @@
  * This software may be modified and distributed under the terms
  * of the BSD license.  See the LICENSE file for details.
  */
-class Solution {
+package com.likejazz.leetcode.solution14;
+
+public class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0)
             return "";
