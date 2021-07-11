@@ -5,15 +5,14 @@ public class Solution {
         String result = "";
         String[] s_splitted = s.split("-");
 
+        // Exception Handling
+        if (s_splitted.length == 0)
+            return "";
+
         // Combine the splitted string array into single character sequence.
         String s_combined = "";
-        for (int i = 0; i < s_splitted.length; i++) {
-            s_combined += s_splitted[i];
-        }
-
-        // Exception Handling
-        if (s_combined.length() == 0)
-            return "";
+        for (String sc : s_splitted)
+            s_combined += sc;
 
         // Process PREFIX
         int first_part_len = s_combined.length() % k;
