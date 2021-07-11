@@ -2,35 +2,55 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 	_ "strings"
 )
 
-//leetcode submit region begin(Prohibit modification and deletion)
-func addToArrayForm(A []int, K int) []int {
-	vv := ""
-	for _, v := range A {
-		vv += strconv.Itoa(v)
-	}
-	vvv, _ := strconv.Atoi(vv)
-	vvv += K
-
-	vvvv := strconv.Itoa(vvv)
-	fmt.Println(vvvv[2])
-	for _, v := range vvvv {
-		fmt.Println(v)
+func computeDistance(a, b string) bool {
+	var x, y int = -1, -1
+	for i := 0; i < len(a); i++ {
+		if a[i] != b[i] {
+			if x == -1 {
+				x = i
+			} else {
+				y = i
+			}
+		}
 	}
 
-
-	return []int{}
+	if x != -1 && y != -1 {
+		if a[x] == b[y] && a[y] == b[x] {
+			return true
+		}
+	}
+	return false
 }
 
-//leetcode submit region end(Prohibit modification and deletion)
+func numSimilarGroups(strs []string) int {
+	type result struct {
+		str []string
+	}
+	var results []result
 
-// 989
+	for _, s := range strs {
+		for _, r := range results {
+			fmt.Println(s, r.str)
+			for _, rs := range r.str {
+				if computeDistance(s, rs) {
+					fmt.Println("true")
+					r.str = append(r.str, s)
+					break
+				}
+			}
+		}
+		results = append(results, result{str: []string{s}})
+	}
+	return len(results)
+}
+
+// 839
 
 func main() {
-	r := addToArrayForm([]int{1,2,3,0}, 34)
+	r := numSimilarGroups([]string{"tars", "rats", "arts", "star"})
 	fmt.Println(r)
 }
 
