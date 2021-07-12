@@ -3,8 +3,8 @@ Handcrafted by Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>]
 
 - [C](c/) C99
 - [C++](cpp/) C++17
-- [Java](java-kotlin/) Java SE 11
+- [Java](java-kotlin/src/main/java/com/likejazz/leetcode/java) Java SE 11
 - [Go](go/) Go 1.16
 - [Python](python/) Python 3.7
 - [TypeScript](typescript/) TypeScript 4.2
-- [Kotlin](java-kotlin/) Kotlin 1.5.20
+- [Kotlin](java-kotlin/src/main/java/com/likejazz/leetcode/kotlin) Kotlin 1.5.20
