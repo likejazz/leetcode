@@ -1,4 +1,4 @@
-package com.likejazz.leetcode.solution482;
+package com.likejazz.leetcode.java.solution482;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

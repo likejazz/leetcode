@@ -1,4 +1,4 @@
-package com.likejazz.leetcode.solution482;
+package com.likejazz.leetcode.java.solution482;
 
 public class Solution {
     public String licenseKeyFormatting(String s, int k) {

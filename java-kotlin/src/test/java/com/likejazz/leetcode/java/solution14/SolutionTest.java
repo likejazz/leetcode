@@ -1,4 +1,4 @@
-package com.likejazz.leetcode.solution14;
+package com.likejazz.leetcode.java.solution14;
 
 import org.junit.jupiter.api.Test;
 
