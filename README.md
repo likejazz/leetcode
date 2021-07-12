@@ -1,5 +1,5 @@
 # LeetCode Solutions
-Handcrafted by Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.yes24.com/Product/Goods/91084402)  
+By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.yes24.com/Product/Goods/91084402)  
 
 - [C](c/) C99
 - [C++](cpp/) C++17
