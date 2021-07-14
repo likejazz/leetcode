@@ -20,7 +20,7 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 | 482. License Key Formatting | [Java](java-kotlin/src/main/java/com/likejazz/leetcode/java/solution482/Solution.java) |
 | 590. N-ary Tree Postorder Traversal | [Python](python/590-n-ary-tree-postorder-traversal.py) |
 | 684. Redundant Connection | [Python](python/684-redundant-connection.py) |
-| 704. Binary Search | [Python](python/704-binary-search.py) |
+| 704. Binary Search | [Python](python/704-binary-search.py), [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution704/Solution.kt) |
 | 792. Number of Matching Subsequences | [Python](python/792-number-of-matching-subsequences.py) |
 | 819. Most Common Word | [C++](cpp/819-most-common-word.cpp) |
 | 897. Increasing Order Search Tree | [Python](python/897-increasing-order-search-tree.py) |
@@ -29,10 +29,10 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 | 994. Rotting Oranges | [C++](cpp/994-rotting-oranges.cpp) |
 | 1021. Remove Outermost Parentheses | [Go](go/1021-remove-outermost-parentheses.go) |
 | 1295. Find Numbers with Even Number of Digits | [TypeScript](typescript/1295-find-numbers-with-even-number-of-digits.ts) |
-| 1302. Deepest Leaves Sum | [Kotlin](java-kotlin/src/main/java/com/likejazz/leetcode/kotlin/solution1302/Solution.kt) |
+| 1302. Deepest Leaves Sum | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1302/Solution.kt) |
 | 1346. Check If N and Its Double Exist | [TypeScript](typescript/1346-check-if-n-and-its-double-exist.ts) |
 | 1431. Kids With the Greatest Number of Candies | [Go](go/1431-kids-with-the-greatest-number-of-candies.go) |
-| 1614. Maximum Nesting Depth of the Parentheses | [Kotlin](java-kotlin/src/main/java/com/likejazz/leetcode/kotlin/solution1614/Solution.kt) |
+| 1614. Maximum Nesting Depth of the Parentheses | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1614/Solution.kt) |
 | 1716. Calculate Money in Leetcode Bank | [TypeScript](typescript/1716-calculate-money-in-leetcode-bank.ts) |
 | 1805. Number of Different Integers in a String | [TypeScript](typescript/1805-number-of-different-integers-in-a-string.ts) |
 

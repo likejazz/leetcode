@@ -1,9 +1,8 @@
-package com.likejazz.leetcode.kotlin.solution1302
-
-import org.junit.jupiter.api.BeforeEach
-import org.junit.jupiter.api.Test
+package com.likejazz.leetcode.solution1302
 
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
 
 internal class SolutionTest {
     private lateinit var s: Solution

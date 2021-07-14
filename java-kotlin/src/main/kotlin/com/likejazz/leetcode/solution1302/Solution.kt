@@ -1,4 +1,4 @@
-package com.likejazz.leetcode.kotlin.solution1302
+package com.likejazz.leetcode.solution1302
 
 import java.lang.Integer.max
 
