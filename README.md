@@ -28,6 +28,7 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 | 938. Range Sum of BST | [Go](go/938-range-sum-of-bst.go) |
 | 994. Rotting Oranges | [C++](cpp/994-rotting-oranges.cpp) |
 | 1021. Remove Outermost Parentheses | [Go](go/1021-remove-outermost-parentheses.go) |
+| 1128. Number of Equivalent Domino Pairs | [Python](python/1128-number-of-equivalent-domino-pairs.py) |
 | 1295. Find Numbers with Even Number of Digits | [TypeScript](typescript/1295-find-numbers-with-even-number-of-digits.ts) |
 | 1302. Deepest Leaves Sum | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1302/Solution.kt) |
 | 1346. Check If N and Its Double Exist | [TypeScript](typescript/1346-check-if-n-and-its-double-exist.ts) |
