@@ -40,8 +40,30 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 ## Language Compiler Versions
 - C99
 - C++17
+```
+$ mkdir bld
+$ cd bld
+$ cmake ..
+$ make
+$ ./testcase
+```
 - Java SE 11
+```
+$ gradle test
+```
 - Go 1.16
+```
+$ go run test_leetcode.go
+```
 - Python 3.7
+```
+$ python 1128-number-of-equivalent-domino-pairs.py
+```
 - TypeScript 4.2
+```
+$ deno run test_leetcode.ts
+```
 - Kotlin 1.5.20
+```
+$ gradle test
+```
