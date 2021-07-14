@@ -56,9 +56,6 @@ $ gradle test
 $ go run test_leetcode.go
 ```
 - Python 3.7
-```
-$ python 1128-number-of-equivalent-domino-pairs.py
-```
 - TypeScript 4.2
 ```
 $ deno run test_leetcode.ts
