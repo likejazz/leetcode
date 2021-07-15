@@ -5,6 +5,7 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 | ----- | -------- |
 | 1. Two Sum | [Go](go/1-two-sum.go), [Python](python/1-two-sum.py) |
 | 14. Longest Common Prefix | [C++](cpp/14-longest-common-prefix.cpp), [Go](go/14-longest-common-prefix.go), [Java](java-kotlin/src/main/java/com/likejazz/leetcode/java/solution14/Solution.java), [Python](python/14-longest-common-prefix.py) |
+| 62. Unique Paths | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution62/Solution.kt) |
 | 101. Symmetric Tree | [C++](cpp/101-symmetric-tree.cpp), [Python](python/101-symmetric-tree.py) |
 | 125. Valid Palindrome | [C](c/125-valid-palindrome.c), [Python](python/125-valid-palindrome.py) |
 | 141. Linked List Cycle | [Go](go/141-linked-list-cycle.go) |
@@ -66,5 +67,6 @@ $ deno run test_leetcode.ts
 - Kotlin 1.5.20
 ```
 // Using IntelliJ Kotlin Worksheet
+
 $ gradle test
 ```

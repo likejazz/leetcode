@@ -1,5 +1,5 @@
 from typing import List, Dict, Tuple
-from unittest import TestCase, main
+import unittest
 
 
 class Solution:
@@ -18,7 +18,7 @@ class Solution:
         return equalities
 
 
-class MyTest(TestCase):
+class MyTest(unittest.TestCase):
     def setUp(self):
         self.s = Solution()
 
@@ -34,4 +34,4 @@ class MyTest(TestCase):
 
 
 if __name__ == '__main__':
-    main()
+    unittest.main()
