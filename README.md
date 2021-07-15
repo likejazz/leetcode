@@ -62,5 +62,6 @@ $ deno run test_leetcode.ts
 ```
 - Kotlin 1.5.20
 ```
+// Using IntelliJ Kotlin Worksheet
 $ gradle test
 ```
