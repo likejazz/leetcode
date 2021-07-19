@@ -37,6 +37,7 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 | 1614. Maximum Nesting Depth of the Parentheses | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1614/Solution.kt) |
 | 1716. Calculate Money in Leetcode Bank | [TypeScript](typescript/1716-calculate-money-in-leetcode-bank.ts) |
 | 1805. Number of Different Integers in a String | [TypeScript](typescript/1805-number-of-different-integers-in-a-string.ts) |
+| 1903. Largest Odd Number in String | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1903/Solution.kt) |
 
 ## Language Compiler Versions
 - C99
