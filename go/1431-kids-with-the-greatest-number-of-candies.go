@@ -1,3 +1,5 @@
+package solution
+
 func kidsWithCandies(candies []int, extraCandies int) []bool {
 	var greatest int
 	for _, v := range candies {

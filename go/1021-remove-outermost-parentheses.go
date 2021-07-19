@@ -1,3 +1,10 @@
+package solution
+
+import (
+	"container/list"
+	"strings"
+)
+
 func removeOuterParentheses(S string) string {
 	var stack = list.New()
 	var new []string

@@ -1,3 +1,5 @@
+package solution
+
 func firstUniqChar(s string) int {
 	var m = make(map[int32]int)
 	for _, v := range s {

@@ -3,8 +3,8 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 
 | Title | Solution |
 | ----- | -------- |
-| 1. Two Sum | [Go](go/1-two-sum.go), [Python](python/1-two-sum.py) |
-| 14. Longest Common Prefix | [C++](cpp/14-longest-common-prefix.cpp), [Go](go/14-longest-common-prefix.go), [Java](java-kotlin/src/main/java/com/likejazz/leetcode/java/solution14/Solution.java), [Python](python/14-longest-common-prefix.py) |
+| 1. Two Sum | [Python](python/1-two-sum.py), [Go](go/1-two-sum.go) |
+| 14. Longest Common Prefix | [C++](cpp/14-longest-common-prefix.cpp), [Java](java-kotlin/src/main/java/com/likejazz/leetcode/java/solution14/Solution.java), [Python](python/14-longest-common-prefix.py), [Go](go/14-longest-common-prefix.go) |
 | 62. Unique Paths | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution62/Solution.kt) |
 | 101. Symmetric Tree | [C++](cpp/101-symmetric-tree.cpp), [Python](python/101-symmetric-tree.py) |
 | 125. Valid Palindrome | [C](c/125-valid-palindrome.c), [Python](python/125-valid-palindrome.py) |
@@ -37,7 +37,7 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 | 1614. Maximum Nesting Depth of the Parentheses | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1614/Solution.kt) |
 | 1716. Calculate Money in Leetcode Bank | [TypeScript](typescript/1716-calculate-money-in-leetcode-bank.ts) |
 | 1805. Number of Different Integers in a String | [TypeScript](typescript/1805-number-of-different-integers-in-a-string.ts) |
-| 1903. Largest Odd Number in String | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1903/Solution.kt) |
+| 1903. Largest Odd Number in String | [Go](go/1903-largest-odd-number-in-string.go), [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1903/Solution.kt) |
 
 ## Language Compiler Versions
 - C99
@@ -53,13 +53,15 @@ $ ./testcase
 ```
 $ gradle test
 ```
-- Go 1.16
-```
-$ go run test_leetcode.go
-```
 - Python 3.7
 ```
 $ python 1128-number-of-equivalent-domino-pairs.py
+```
+- Go 1.16
+```
+$ go test
+
+// If you use GoLand, Select a Test kind 'Directory' to run the Test properly.
 ```
 - TypeScript 4.2
 ```

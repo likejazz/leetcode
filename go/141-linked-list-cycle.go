@@ -1,3 +1,5 @@
+package solution
+
 func hasCycle(head *ListNode) bool {
 	var l []*ListNode
 

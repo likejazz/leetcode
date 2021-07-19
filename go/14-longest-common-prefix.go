@@ -6,6 +6,10 @@
  * This software may be modified and distributed under the terms
  * of the BSD license.  See the LICENSE file for details.
  */
+package solution
+
+import "strings"
+
 func longestCommonPrefix(strs []string) string {
 	if strs == nil || len(strs) == 0 {
 		return ""

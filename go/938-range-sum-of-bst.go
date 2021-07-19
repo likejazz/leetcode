@@ -1,3 +1,5 @@
+package solution
+
 func rangeSumBST(root *TreeNode, L int, R int) int {
 	if root == nil {
 		return 0

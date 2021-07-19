@@ -1,3 +1,5 @@
+package solution
+
 func sortArrayByParity(A []int) []int {
 	var ret []int
 	for _, a := range A {
