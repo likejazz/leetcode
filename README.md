@@ -34,7 +34,7 @@ By Sang-Kil Park, The Author of [<파이썬 알고리즘 인터뷰>](http://www.
 | 1302. Deepest Leaves Sum | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1302/Solution.kt) |
 | 1346. Check If N and Its Double Exist | [TypeScript](typescript/1346-check-if-n-and-its-double-exist.ts) |
 | 1431. Kids With the Greatest Number of Candies | [Go](go/1431-kids-with-the-greatest-number-of-candies.go) |
-| 1513. Number of Substrings With Only 1s | [Python](python/1513-number-of-substrings-with-only-1s.py) |
+| 1513. Number of Substrings With Only 1s | [Python](python/1513-number-of-substrings-with-only-1s.py), [Go](go/1513-number-of-substrings-with-only-1s.go) |
 | 1614. Maximum Nesting Depth of the Parentheses | [Kotlin](java-kotlin/src/main/kotlin/com/likejazz/leetcode/solution1614/Solution.kt) |
 | 1716. Calculate Money in Leetcode Bank | [TypeScript](typescript/1716-calculate-money-in-leetcode-bank.ts) |
 | 1805. Number of Different Integers in a String | [TypeScript](typescript/1805-number-of-different-integers-in-a-string.ts) |
